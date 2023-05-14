@@ -39,5 +39,3 @@ for i in range (0,cols):
  xx[0,cols-1-i]=(main_mat[rows-i-1,cols]-np.sum(product))/main_mat[rows-i-1,cols-i-1]
 print(main_mat)
 print('\nsolution=',xx)
-
-
